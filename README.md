@@ -76,7 +76,7 @@ A realização do teste de aceitação realizada pelo cliente é importante para
 
 Porém também se faz necessário que os erros apontados sejam melhor detalhados para os desenvolvedores. Para isso é necessário que a equipe de teste analise os erros para identificar qual o real problema (Ex: entender se o problema é no front ou no back) e os descrever melhor, assim os  existir um padrão de report de BUGs que os QAs da equipe possam utilizar, como o exemplo a seguir:
 
-| Tópico               | Descrição                                                                           |
+|                |                                                                            |
 |----------------------|-------------------------------------------------------------------------------------|
 | **Título**               | Título que retoma o erro                                                            |
 | **Descrição**            | Descrição mais detalhada do problema                                                |
