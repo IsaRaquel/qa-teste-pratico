@@ -1,30 +1,52 @@
 # qa-teste-pratico
 
-### 1)
+<h3> 1)</h3>
 
-Cenário: Verificar se o cliente recebe a mensagem quando um produto comumente comprado por ele está promoção
+<h4> Cenário: Verificar se o cliente recebe a mensagem quando um produto comumente comprado por ele está promoção</h4>
 
-Dado:
-Quando:
-Então:
+Dado: Que o cliente tem um produto comumente comprado
+E: O cliente não comprou o produto nos últimos 5 dias
+Quando: O produto entra em promoção
+Então: O cliente recebe um mensagem informando que o produto entrou em promoção
 
-Cenário: Verificar se o cliente não recebe a mensagem quando um produto que nunca comprou está em promoção
+<h4>Cenário: Verificar se o cliente não recebe a mensagem quando um produto que nunca comprou está em promoção</h4>
 
-Dado:
-Quando:
-Então:
+Dado: Que o cliente tem um produto comumente comprado
+E: O cliente não comprou o produto nos últimos 5 dias
+Quando: Um produto que o cliente não costuma comprar entra em promoção
+Então: O cliente não deve recebe um mensagem informando que o produto entrou em promoção
 
-Cenário: Verificar se o cliente não recebe a mensagem quando um produto que comprou um única vez está em promoção
 
-Dado:
-Quando:
-Então:
+<h4>Cenário: Verificar se o cliente não recebe a mensagem quando um produto que comprou um única vez está em promoção</h4>
 
-Cenário: Verificar se o cliente recebe a mensagem quando três produtos comumente comprados estão em promoção
+Dado: Que o cliente tem três produto comumente comprado
+E: Tem um produto que comprou uma única vez
+E: O cliente não comprou o produto nos últimos 5 dias
+Quando: O produto comprado uma única vez entra em promoção
+Então: O cliente não deve recebe um mensagem informando que o produto entrou em promoção
 
-Dado:
-Quando:
-Então:
+<h4>Cenário: Verificar se o cliente recebe a mensagem quando tem três produtos comumente comprados estão em promoção</h4>
+
+Dado: Que o cliente tem três produtos comumente comprados
+E: O cliente não comprou os produtos nos últimos 5 dias
+Quando: Os produtos entram em promoção
+Então: O cliente recebe um mensagem informando que os produtos entraram em promoção
+
+<h4>Cenário: Verificar se o cliente recebe a mensagem quando comprou o produto nos últimos 5 dias</h4>
+
+Dado: Que o cliente tem um produtos comumente comprados
+E: O cliente comprou a produto nos últimos 5 dias
+Quando: O produto entra em promoção
+Então: O cliente não deve recebe um mensagem informando que o produto entrou em promoção
+
+<h4>Cenário: Verificar se o cliente recebe a mensagem quando três produtos comumente comprados estão em promoção e um foi comprado nos últimos cinco dias</h4>
+
+Dado: Que o cliente tem três produtos comumente comprados
+E: O cliente comprou um produto nos últimos 5 dias
+Quando: Os produtos entram em promoção
+Então: O cliente recebe um mensagem informando que dois produtos entraram em promoção
+E: O produto comprado nos últimos 5 dias não é listado
+
 
 ### 2)
 
