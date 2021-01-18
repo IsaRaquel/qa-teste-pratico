@@ -74,11 +74,11 @@ Para a definição do pronto seria interessante acrescentar um etapa antes da di
 
 A realização do teste de aceitação realizada pelo cliente é importante para garantir que está tudo conforme foi acordado.
 
-Porém também se faz necessário que os erros apontados sejam melhor detalhados para os desenvolvedores. Para isso é necessário que a equipe de teste analise os erros para identificar qual o real problema (Ex: entender se o problema é no front ou no back) e os descrever melhor, assim os  existir um padrão de report de BUGs que os QAs da equipe possam utilizar, como o exemplo a seguir:
+Porém também se faz necessário que os erros apontados sejam melhor detalhados para os desenvolvedores. Para isso é necessário que a equipe de teste analise os erros para identificar qual o real problema (Ex: entender se o problema é no front ou no back) e os descrever melhor, assim os  existir um padrão de reporte de BUGs que os QAs da equipe possam utilizar, como o exemplo a seguir:
 
-|                |                                                                            |
+| **Tópico do Reporte**               |                **Descrição**                                                            |
 |----------------------|-------------------------------------------------------------------------------------|
-| **Título**               | Título que retoma o erro                                                            |
+| **Título**               | Título que resume o erro                                                            |
 | **Descrição**            | Descrição mais detalhada do problema                                                |
 | **Passos**               | Um passo a passo para reproduzir o problema                                         |
 | **Resultado Atual**     | O que acontece ao se reproduzir o passo a passo atualmente                          |
@@ -86,7 +86,7 @@ Porém também se faz necessário que os erros apontados sejam melhor detalhados
 | **Evidências**          | Imagens, vídeos ou qualquer coisa que provam que o problema está ocorrendo          |
 | **Logs**           	   | Logs de erros                                                                       |
 | **Ambiente**             | Ambiente em que foi testado                                                         |
-| **Navegador**            | Se for uma aplicação web dizer qual navegador e versão foi encontrado o problema    |
+| **Navegador**            | Se for uma aplicação web, dizer qual navegador e versão foi encontrado o problema    |
 | **Sistema Operacional** | O sistema operacional onde foi encontrado o problema                                |
 | **Versão testada**      | A versão do sistema que foi testada                                                 |
 
