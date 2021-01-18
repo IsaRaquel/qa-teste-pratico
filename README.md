@@ -28,7 +28,7 @@ Então:
 
 ### 2)
 
-Teste Unitarios feitos em java usando JUnit: <a href="https://github.com/IsaRaquel/qa-teste-pratico/tree/main/src">Testes Unitarios</a>
+Teste unitários feitos em java usando JUnit: <a href="https://github.com/IsaRaquel/qa-teste-pratico/tree/main/src">Testes Unitários</af
 
 ### 3)
 
