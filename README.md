@@ -2,55 +2,56 @@
 
 <h3> 1)</h3>
 
-<h4> Cenário: Verificar se o cliente recebe a mensagem quando um produto comumente comprado por ele está promoção</h4>
+<h4>Cenário: Verificar se o cliente recebe a mensagem quando um produto comumente comprado por ele está promoção</h4>
 
-Dado: Que o cliente tem um produto comumente comprado
-E: O cliente não comprou o produto nos últimos 5 dias
-Quando: O produto entra em promoção
-Então: O cliente recebe um mensagem informando que o produto entrou em promoção
+**Dado:** Que o cliente tem um produto comumente comprado<br>
+**E:** O cliente não comprou o produto nos últimos 5 dias<br>
+**Quando:** O produto entra em promoção<br>
+**Então:** O cliente recebe um mensagem informando que o produto entrou em promoção<br>
 
 <h4>Cenário: Verificar se o cliente não recebe a mensagem quando um produto que nunca comprou está em promoção</h4>
 
-Dado: Que o cliente tem um produto comumente comprado
-E: O cliente não comprou o produto nos últimos 5 dias
-Quando: Um produto que o cliente não costuma comprar entra em promoção
-Então: O cliente não deve recebe um mensagem informando que o produto entrou em promoção
+**Dado:** Que o cliente tem um produto comumente comprado<br>
+**E:** O cliente não comprou o produto nos últimos 5 dias<br>
+**Quando:** Um produto que o cliente não costuma comprar entra em promoção<br>
+**Então:** O cliente não deve recebe um mensagem informando que o produto entrou em promoção<br>
 
 
 <h4>Cenário: Verificar se o cliente não recebe a mensagem quando um produto que comprou um única vez está em promoção</h4>
 
-Dado: Que o cliente tem três produto comumente comprado
-E: Tem um produto que comprou uma única vez
-E: O cliente não comprou o produto nos últimos 5 dias
-Quando: O produto comprado uma única vez entra em promoção
-Então: O cliente não deve recebe um mensagem informando que o produto entrou em promoção
+**Dado:** Que o cliente tem três produto comumente comprado<br>
+**E:** Tem um produto que comprou uma única vez<br>
+**E:** O cliente não comprou o produto nos últimos 5 dias<br>
+**Quando:** O produto comprado uma única vez entra em promoção<br>
+**Então:** O cliente não deve recebe um mensagem informando que o produto entrou em promoção<br>
 
 <h4>Cenário: Verificar se o cliente recebe a mensagem quando tem três produtos comumente comprados estão em promoção</h4>
 
-Dado: Que o cliente tem três produtos comumente comprados
-E: O cliente não comprou os produtos nos últimos 5 dias
-Quando: Os produtos entram em promoção
-Então: O cliente recebe um mensagem informando que os produtos entraram em promoção
+**Dado:** Que o cliente tem três produtos comumente comprados<br>
+**E:** O cliente não comprou os produtos nos últimos 5 dias<br>
+**Quando:** Os produtos entram em promoção<br>
+**Então:** O cliente recebe um mensagem informando que os produtos entraram em promoção<br>
 
 <h4>Cenário: Verificar se o cliente recebe a mensagem quando comprou o produto nos últimos 5 dias</h4>
 
-Dado: Que o cliente tem um produtos comumente comprados
-E: O cliente comprou a produto nos últimos 5 dias
-Quando: O produto entra em promoção
-Então: O cliente não deve recebe um mensagem informando que o produto entrou em promoção
+**Dado:** Que o cliente tem um produtos comumente comprados<br>
+**E:** O cliente comprou a produto nos últimos 5 dias<br>
+**Quando:** O produto entra em promoção<br>
+**Então:** O cliente não deve recebe um mensagem informando que o produto entrou em promoção<br>
 
 <h4>Cenário: Verificar se o cliente recebe a mensagem quando três produtos comumente comprados estão em promoção e um foi comprado nos últimos cinco dias</h4>
 
-Dado: Que o cliente tem três produtos comumente comprados
-E: O cliente comprou um produto nos últimos 5 dias
-Quando: Os produtos entram em promoção
-Então: O cliente recebe um mensagem informando que dois produtos entraram em promoção
-E: O produto comprado nos últimos 5 dias não é listado
+**Dado:** Que o cliente tem três produtos comumente comprados<br>
+**E:** O cliente comprou um produto nos últimos 5 dias<br>
+**Quando:** Os produtos entram em promoção<br>
+**Então:** O cliente recebe um mensagem informando que dois produtos entraram em promoção<br>
+**E:** O produto comprado nos últimos 5 dias não é listado<br>
+
 
 
 ### 2)
 
-Teste unitários feitos em java usando JUnit: <a href="https://github.com/IsaRaquel/qa-teste-pratico/tree/main/src">Testes Unitários</a>
+Teste unitários feitos em java usando JUnit: <a href="https://github.com/IsaRaquel/qa-teste-pratico/tree/main/src">**Testes Unitários**</a>
 
 ### 3)
 
@@ -77,16 +78,16 @@ Porém também se faz necessário que os erros apontados sejam melhor detalhados
 
 | Tópico               | Descrição                                                                           |
 |----------------------|-------------------------------------------------------------------------------------|
-| Título               | Título que retoma o erro                                                            |
-| Descrição            | Descrição mais detalhada do problema                                                |
-| Passos               | Um passo a passo para reproduzir o problema                                         |
-| Resultado Atual:     | O que acontece ao se reproduzir o passo a passo atualmente                          |
-| Resultado esperado:  | O que deveria acontecer ao se reproduzir o passo a passo e não existisse o problema |
-| Evidências:          | Imagens, vídeos ou qualquer coisa que provam que o problema está ocorrendo          |
-| Logs           	   | Logs de erros                                                                       |
-| Ambiente             | Ambiente em que foi testado                                                         |
-| Navegador            | Se for uma aplicação web dizer qual navegador e versão foi encontrado o problema    |
-| Sistema Operacional: | O sistema operacional onde foi encontrado o problema                                |
-| Versão testada:      | A versão do sistema que foi testada                                                 |
+| **Título**               | Título que retoma o erro                                                            |
+| **Descrição**            | Descrição mais detalhada do problema                                                |
+| **Passos**               | Um passo a passo para reproduzir o problema                                         |
+| **Resultado Atual**     | O que acontece ao se reproduzir o passo a passo atualmente                          |
+| **Resultado esperado**  | O que deveria acontecer ao se reproduzir o passo a passo e não existisse o problema |
+| **Evidências**          | Imagens, vídeos ou qualquer coisa que provam que o problema está ocorrendo          |
+| **Logs**           	   | Logs de erros                                                                       |
+| **Ambiente**             | Ambiente em que foi testado                                                         |
+| **Navegador**            | Se for uma aplicação web dizer qual navegador e versão foi encontrado o problema    |
+| **Sistema Operacional** | O sistema operacional onde foi encontrado o problema                                |
+| **Versão testada**      | A versão do sistema que foi testada                                                 |
 
 
